@@ -29,7 +29,9 @@ exports.searchItems = async (query) => {
       name: "Jorge",
       lastname: "Santamaria",
     },
-    categories: searchResponse.data.filters,
+    categories: searchResponse.data.filters.flatMap((filter) =>
+      filter.values.map((value) => value.name)
+    ),
     items,
   };
 };
