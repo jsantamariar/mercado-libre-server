@@ -27,16 +27,33 @@ Asegúrate de tener Node.js instalado en tu máquina. Si no lo tienes, puedes de
 
 1. Clona el repositorio:
 
-   ```bash
-   git clone https://github.com/jsantamariar/mercado-libre-server.git
-   ```
+```bash
+git clone https://github.com/jsantamariar/mercado-libre-server.git
+```
 
 2. Navega al directorio del repositorio:
-   cd mercado-libre-server
+
+```bash
+cd mercado-libre-server
+```
+
 3. Instala las dependencias:
-   npm install
+
+```bash
+npm install
+```
+
 4. Para ejecutar el servidor, usa el siguiente comando:
-   npm start o npm run dev
+
+```bash
+npm start
+```
+
+o
+
+```bash
+npm run dev
+```
 
 El servidor se iniciará y escuchará en el puerto especificado (por defecto: 3000).
 
